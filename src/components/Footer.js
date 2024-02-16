@@ -13,7 +13,7 @@ export default function Footer() {
               const {icon , id, link} = props;
               return (
                 <li key={id}>
-                  <a href={link} target='_blank'>{icon}</a>
+                  <a href={link} target='_blank' rel='noreferrer'>{icon}</a>
                 </li>
               );
             })}

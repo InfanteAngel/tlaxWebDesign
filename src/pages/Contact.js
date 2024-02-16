@@ -81,7 +81,7 @@ const ContactBox = (props) => {
     <div className="contactBox" key={id}>
       <div>{icon}</div>
       <div className="linkButton">
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" rel="noreferrer">
           <button className="contactText">{text}</button>
         </a>
       </div>

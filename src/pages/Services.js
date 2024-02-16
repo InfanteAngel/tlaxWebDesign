@@ -4,7 +4,6 @@ import longArrow from "../images/long-arrow.png";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { navItems } from "../components/Navbar"; 
-import { useCallback } from "react";
 
   const serviceContents = {
     title: "5 Page Landing Website",
@@ -187,7 +186,7 @@ const ServiceList3 = (props) => {
 
 const ServiceBox = ({title, description, price, delivery, revision, basic, standard, premium}) => {
 
-if(basic == undefined){
+if(basic === undefined){
   basic = false
 }
 

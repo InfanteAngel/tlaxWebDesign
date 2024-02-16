@@ -91,6 +91,13 @@
   border: 0 !important;
 }
 
+button:link{
+    color: var(--black-clr);
+    text-decoration: none;
+}
+
+
+
 /* Box sizing rules */
 *,
 *::before,
@@ -474,6 +481,10 @@ a {
 
 /* Service General styling */
 
+.navButtons button{
+  color: var(--black-clr) !important;
+}
+
 .navButtons .selectedButton {
   background-color: white;
   border-bottom: 2px solid black;
@@ -576,6 +587,7 @@ a {
   height: 1.7em;
   box-shadow: 4px 4px 0px var(--black-clr);
   transition: ease-in-out 300ms;
+  color: var(--black-clr) !important;
 }
 
 .contactButton:hover,
@@ -729,6 +741,7 @@ a {
 .contactBox button {
   background-color: transparent;
   border: none;
+  color: var(--black-clr) !important;
 }
 
 .contactBox i {
