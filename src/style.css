@@ -294,6 +294,8 @@ a {
   animation-fill-mode: forwards, forwards;
 }
 
+
+
 .right-image {
   margin-top: -7em;
 }
@@ -576,9 +578,7 @@ a {
   padding-top: 7.5em;
 }
 
-.contactText{
-  font-size: .9em;
-}
+
 
 .contactButton {
   background-color: white;
@@ -587,12 +587,14 @@ a {
   font-family: var(--accent-ff);
   font-weight: 800;
   font-size: 1.5em;
-  width: 7.5em;
+  min-width: 7.5em;
   height: 1.7em;
   box-shadow: 4px 4px 0px var(--black-clr);
   transition: ease-in-out 300ms;
   color: var(--black-clr) !important;
 }
+
+
 
 .contactButton:hover,
 .linkButton:hover {
@@ -735,7 +737,7 @@ a {
   font-family: var(--accent-ff);
   font-weight: 800;
   font-size: 1.3em;
-  width: 8em;
+  min-width: 8em;
   text-align: center;
   height: 2em;
   box-shadow: 4px 4px 0px var(--black-clr);
@@ -900,10 +902,16 @@ a {
   .navBar {
     display: none;
   }
+  
+  .right-image{
+    margin-top: -3.9em;
+  }
+
+
 
   .nav-wrap {
     min-height: 50em;
-    margin-top: 6em;
+    margin-top: 9em;
     margin-bottom: 2em;
   }
 
