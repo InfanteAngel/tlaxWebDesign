@@ -8,15 +8,15 @@ import Footer from "../components/Footer";
 
 export const paraContent = [
   {
-    heading: "YOUR VISION. OUR REALITY.",
+    heading: "Custom websites, landing pages & design",
     content:
-      "Innovators in creating landing pages, With eye catching designs guaranteed to boost your business.",
+      "Here at Tlax, we specialize in Web Design and creating custom landing pages for local businesses and beyond. Located in Houston, TX we build custom websites, specializing in Web Programming & Web Development",
     id: 1,
   },
   {
     heading: "YOUR VISION. OUR REALITY",
     content:
-      "In 2023 Tlax was generated as an idea to facilitate modern landing pages. December 2023 was when Tlax began to rise from the ground up. Slowly setting its presence in the digital market..",
+      "In 2023 Tlax was generated as an idea to facilitate modern landing pages. Sometimes, big web development companies are a hassle and all you want is a quick landing page at low cost that meets yours needs.",
     id: 2,
   },
   {
